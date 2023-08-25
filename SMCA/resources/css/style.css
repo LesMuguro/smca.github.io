@@ -1,0 +1,105 @@
+html {
+    display: block;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+}
+
+/* Header Section*/
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    padding-top: 50px;
+    height: 20px;
+    display: block;
+    padding-bottom: 120px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+.navbar p {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+a {
+    color: white;
+}
+
+/* Main Section */
+.main {
+    padding-top: 35px;
+    opacity: 0.9;
+}
+
+div {
+    display: block;
+}
+
+.about {
+    display: flex;
+    height: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+    color: white;
+    background-image: url(../images/about-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.products {
+    min-height: 200px;
+    margin: auto;
+    margin-bottom: 35px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-image: url('../images/product-image.jpg');
+    background-size: cover;
+    color: black;
+}
+
+.products p {
+    font-size: medium;
+    font-weight: 700;
+}
+
+.products h2 {
+    color: black;
+
+}
+
+.readable {
+    color: white;
+}
+
+.contact {
+    background-color: white;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.contact .contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact, .copyright {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
